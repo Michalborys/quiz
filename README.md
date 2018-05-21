@@ -1,14 +1,14 @@
-#include <iostream>
-#include<fstream>
-#include <string>
-#include<cstdlib>
-#include<time.h>
-#include<stdio.h>
+    #include <iostream>
+    #include<fstream>
+    #include <string>
+    #include<cstdlib>
+     #include<time.h>
+      #include<stdio.h>
 
-using namespace std;
-int main()
-{
-    class pytanie
+     using namespace std;
+     int main()
+      {
+     class pytanie
     {
     	public:
     	string tresc;
@@ -40,8 +40,8 @@ int main()
 		if(aktualnynr==nr_linii+5)  poprawna=linia;
 		aktualnynr++;
 	}
-plik.close();
-	}
+      plik.close();
+	 }
 
 	void zapytaj()
 	{
